@@ -1,0 +1,24 @@
+@use "../base/index.scss" as *;
+
+.discount__container {
+  position: relative;
+  background-color: $container-color;
+  padding: 2rem 1.5rem;
+  border-radius: 3vw;
+}
+
+.discount__title {
+  font-size: $h3-font-size;
+  margin-bottom: $mb-0-75;
+}
+
+.discount__description {
+  margin-bottom: $mb-1;
+}
+
+.discount__img {
+  width: 300px;
+  position: absolute;
+  top: 4rem;
+  right: -11rem;
+}

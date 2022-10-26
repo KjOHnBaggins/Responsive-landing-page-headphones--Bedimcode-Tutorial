@@ -1,0 +1,40 @@
+@use "../base/index.scss" as *;
+
+.specs__container {
+  position: relative;
+}
+
+.specs__content {
+  row-gap: 1.5rem;
+}
+
+.specs__img {
+  width: 250px;
+  position: absolute;
+  top: 2rem;
+  right: -4rem;
+}
+
+.specs__data {
+  display: grid;
+  row-gap: 0.25rem;
+
+  .specs__icon {
+    font-size: 1.2rem;
+    color: $white-color;
+  }
+
+  .specs__title {
+    font-size: $normal-font-size;
+    font-weight: $font-medium;
+  }
+
+  .specs__subtitle {
+    font-size: $smaller-font-size;
+  }
+}
+
+.specs__data:first-child,
+.specs__data:last-child {
+  margin-left: $mb-2-5;
+}

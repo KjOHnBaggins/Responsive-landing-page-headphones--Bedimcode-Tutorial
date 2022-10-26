@@ -1,0 +1,25 @@
+@use "./variables" as *;
+
+.section {
+  padding: 4rem 0 2rem;
+  &__title {
+    font-size: $bigger-font-size;
+    text-align: center;
+    margin-bottom: $mb-2-5;
+  }
+  &__title-gradient {
+    background-image: $text-gradient;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
+.container {
+  max-width: 60rem;
+  margin-inline: $mb-1-5;
+}
+
+.grid {
+  display: grid;
+}

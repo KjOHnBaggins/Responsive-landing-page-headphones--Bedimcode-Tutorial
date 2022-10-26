@@ -1,0 +1,50 @@
+@use "../base/index.scss" as *;
+
+.home__img {
+  width: 250px;
+  position: absolute;
+  top: -16rem;
+  right: 1.5rem;
+}
+
+.home__data {
+  padding-top: 5rem;
+
+  .home__header {
+    position: realtive;
+  }
+
+  .home__title-description {
+    font-size: $h3-font-size;
+    font-weight: $font-medium;
+    margin-bottom: $mb-1;
+  }
+
+  .home__description {
+    margin-bottom: $mb-2-5;
+    line-height: $text-line-height;
+  }
+
+  .home__price {
+    font-size: $h3-font-size;
+    font-weight: $font-semi-bold;
+    margin-left: $mb-0-75;
+  }
+}
+
+.home__title {
+  font-size: $biggest-font-size;
+  background-image: $text-gradient;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: absolute;
+  top: -5rem;
+  left: 1rem;
+  line-height: 6rem;
+}
+
+.home__subtitle {
+  font-size: $big-font-size;
+  margin-bottom: $mb-2-5;
+}
