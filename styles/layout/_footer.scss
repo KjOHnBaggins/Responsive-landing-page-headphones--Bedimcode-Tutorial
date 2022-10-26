@@ -36,6 +36,10 @@
   padding: 0.5rem 0.75rem;
   border-radius: 0.5rem;
   margin-bottom: $mb-2;
+  &:focus-within {
+    outline: 1px solid white;
+    outline-offset: 3px;
+  }
 }
 
 .footer__input {
@@ -43,7 +47,7 @@
   color: $white-color;
   background-color: $container-color;
 
-  &::placeholder {
+  &:focus::placeholder {
     color: $text-color;
     font-size: $normal-font-size;
     font-family: $body-font;
